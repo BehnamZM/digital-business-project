@@ -37,6 +37,7 @@ export default function WhoWeInvest() {
             <div className="wwi-features">
               {whoWeInvest.map((feature, i) => (
                 <motion.div
+                  key={i}
                   variants={containerVariants(i * 0.05 + 1)}
                   initial="offscreen"
                   whileInView={"onscreen"}
