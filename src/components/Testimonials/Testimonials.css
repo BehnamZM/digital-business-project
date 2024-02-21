@@ -55,7 +55,11 @@
 .slick-dots {
   bottom: 0px !important;
 }
-
+@media (max-width: 768px) {
+  .test-wrapper {
+    margin: 5rem 0;
+  }
+}
 /* @media (min-width: 1280px) {
   .slick-slide.slick-active.slick-current + .slick-slide .comment {
     transition: all 0.3s ease-out;

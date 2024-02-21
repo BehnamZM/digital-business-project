@@ -8,11 +8,9 @@ export default function EmailBox() {
     <motion.div
       initial={{
         width: "5rem",
-        borderRadius: "100%",
       }}
       whileInView={{
         width: "70%",
-        borderRadius: "999px",
         transition: {
           type: "easeOut",
           duration: 1,

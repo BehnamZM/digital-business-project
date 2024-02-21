@@ -33,3 +33,12 @@
     padding: 0.5rem 1rem;
   }
 }
+@media (max-width: 576px) {
+  .email-box {
+    width: 90% !important;
+  }
+  .email-box .send-email {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+}

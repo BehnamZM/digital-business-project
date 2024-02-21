@@ -52,8 +52,16 @@
   font-size: 15px;
   font-weight: 400;
 }
+@media (max-width: 768px) {
+  .od-wrapper {
+    margin-top: 5rem;
+  }
+}
 @media (max-width: 991px) {
   .od-features {
     grid-template-columns: 1fr;
+  }
+  .od-head p {
+    width: 100%;
   }
 }

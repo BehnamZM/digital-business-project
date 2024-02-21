@@ -94,6 +94,10 @@
 @media (max-width: 768px) {
   .wwd-block_features {
     flex-direction: column;
+    width: 100%;
+  }
+  .wwd-support_title {
+    align-items: center;
   }
 }
 @media (max-width: 991px) {
