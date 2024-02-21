@@ -1,0 +1,65 @@
+.test-wrapper {
+  margin: 15rem 0;
+}
+
+.test-head {
+  text-align: center;
+}
+.comment {
+  direction: rtl;
+  box-sizing: border-box;
+}
+.comment-content {
+  height: 250px;
+}
+.comment-des {
+  color: var(--text-secondary);
+  margin: 10px 0;
+}
+.comment-info {
+  display: flex;
+  gap: 5px;
+}
+.first-avatar {
+  background-color: var(--text-secondary);
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.comment-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--text-secondary);
+}
+.comment-profession {
+  font-weight: 300;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+.slick-track {
+  padding: 4rem 0;
+}
+
+.slick-slide > div {
+  padding: 0 20px;
+}
+
+.slick-dots {
+  bottom: 0px !important;
+}
+
+/* @media (min-width: 1280px) {
+  .slick-slide.slick-active.slick-current + .slick-slide .comment {
+    transition: all 0.3s ease-out;
+    scale: 1.1;
+    transform: translateY(-30px);
+  }
+} */

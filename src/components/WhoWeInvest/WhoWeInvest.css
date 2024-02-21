@@ -1,0 +1,51 @@
+.wwi-container {
+  margin-top: 6rem;
+  display: flex;
+}
+.wwi-features {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.wwi-right {
+  flex: 1;
+}
+.wwi-left {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.wwi-left img {
+  width: 70%;
+}
+.wwi-head h3 {
+  color: white;
+}
+
+.wwi-feature {
+}
+.wwi-feature h4 {
+  color: var(--fourth-color);
+}
+.wwi-feature span {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .wwi-left img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .wwi-container {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .wwi-left {
+    flex: 1;
+    justify-content: center;
+  }
+}

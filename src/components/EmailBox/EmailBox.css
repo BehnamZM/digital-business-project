@@ -1,0 +1,35 @@
+.email-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: white;
+  width: 70%;
+  padding: 5px 20px 5px 5px;
+  border-radius: 999px;
+}
+.email-box .email-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.email-box .send-email {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .email-box {
+    width: 95% !important;
+  }
+  .email-box .send-email {
+    padding: 0.5rem 1rem;
+  }
+}
